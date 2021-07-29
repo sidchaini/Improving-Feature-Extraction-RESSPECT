@@ -1,0 +1,2 @@
+seed	model	data	kernel	beta	z_size	num_epochs	batch_size	learning_rate	window_size	kernel_scales	sigma	length_scale	encoder_depth	encoder_width	decoder_depth	decoder_width	cnn_kernel_size	cnn_sizes	NLL	MSE	last_train_loss	last_val_loss	AUPRC	AUROC	testing	data_dir
+1337	gp-vae	physionet	cauchy	0.2	35	40	64	0.001	24	1	1.005	7.0	2	128	2	256	3	[256]	1.2347713	0.57349175	21536.527	21509.994	0.3402466583233344	0.7388237220823354	True	physionet.npz
